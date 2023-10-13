@@ -10,8 +10,6 @@ Time spent: 6
 
 The following **required** functionality is completed:
 
-<!-- Make sure to check off completed functionality below -->
-
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomCar` table**
   - [x] **NOTE: Your GIF must include a view of your Railway database that shows the contents of the table used by your app**
 - [x] **The web app uses React to display data from the API**
@@ -30,7 +28,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/FSo1Fbz.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/FSo1Fbz.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
