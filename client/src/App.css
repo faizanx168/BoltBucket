@@ -1,0 +1,126 @@
+.app {
+  background: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+/* CSS for Car Cards */
+.car-card {
+  background-color: rgba(68, 42, 42, 0.719); /* Faded white background */
+  padding: 20px;
+  margin: 10px auto; /* Center cards on the page */
+  border: 1px solid #ddd;
+
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 75%; /* Fit 75% of the page */
+  text-align: center; /* Display text in horizontal order */
+  display: grid; /* Use grid for rows and columns */
+  grid-template-rows: 1fr 1fr; /* Define two rows, one for title and one for information */
+  grid-template-columns: 1fr; /* One column for all content */
+}
+
+/* Style for Title Row */
+.title-row {
+  grid-row: 1 / 2; /* Title row spans the first row */
+  padding-bottom: 10px; /* Add some space between rows */
+}
+
+/* Style for Information Row */
+.information-row {
+  grid-row: 2 / 3; /* Information row spans the second row */
+}
+
+/* Style for Information Columns (nested grid) */
+.information-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns for information */
+  gap: 10px; /* Add space between columns */
+}
+
+/* Style for Car Card Content */
+.car-card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.car-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.car-card p {
+  margin: 0;
+  font-size: 1rem;
+}
+#wheelImage {
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+}
+
+.create-car {
+  width: 80%;
+  background-color: #3a1c1c0b;
+  padding: 20px;
+  padding-left: 10%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-car form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-car label {
+  font-weight: bold;
+}
+
+.create-car input[type="text"],
+.create-car button {
+  margin-bottom: 20px;
+}
+
+.create-car button {
+  cursor: pointer;
+}
+
+.create-car div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-details {
+  width: 100%;
+  background-color: #311f1f00;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-details h2 {
+  text-align: center;
+}
+
+.car-details .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car-details .image-container img {
+  flex-basis: calc(50% - 10px);
+  margin-bottom: 20px;
+  max-width: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.car-details p {
+  text-align: center;
+}
