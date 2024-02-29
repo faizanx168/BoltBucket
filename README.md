@@ -27,7 +27,7 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
+https://i.imgur.com/FSo1Fbz.gif
 <img src='https://i.imgur.com/FSo1Fbz.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
